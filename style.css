@@ -1,0 +1,274 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+  }
+  
+  /* Header Styles */
+  
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h3 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+div{
+  text-align: left;
+}
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Navigation Styles */
+  
+  .Home {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .Home a {
+    text-decoration: none;
+    color: #337ab7;
+    margin: 0 10px;
+  }
+  
+  .Home a:hover {
+    color: #23527c;
+  }
+  
+  /* Content Styles */
+  
+  h2, h3, h4, h5 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ol {
+    margin: 0 20px;
+  }
+  
+  ol li {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  
+  h4 a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  h4 a:hover {
+    color: #23527c;
+  }
+
+/* Container for Images */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+/* Image Styles */
+  .Mickey img, 
+.mintfloral img, 
+.mintpolkadots img, 
+.mushroom img, 
+.owl img, 
+.pinkfloral img, 
+.planetscats img, 
+.purplebutterflies img, 
+.rustfloral img,
+.sheep img{
+  width: 250px !important;
+  height: 250px !important;
+  margin: 5%; 
+
+}
+
+.image-container {
+  margin: 5%; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  width: 250px; 
+  height: 250px; 
+}
+
+.image-container img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  border-radius: 10px; 
+  transition: transform 0.3s; 
+}
+
+.image-container img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.image-container h6 {
+  text-align: center; 
+  margin-top: 10px; 
+  font-size: 12px; 
+  font-weight: bold; 
+  color: #333; 
+  transition: color 0.3s; 
+}
+
+.image-container h6 a {
+  text-decoration: none; 
+  color: #333; 
+}
+
+.image-container h6 a:hover {
+  color: #666; 
+  text-decoration: underline; 
+}
+
+.vid{
+  margin: 10px;
+}
+
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end; 
+  margin-bottom: 20px; 
+}
+
+.header a {
+  text-decoration: none; 
+  color: #337ab7; 
+  margin-left: 20px; 
+  font-weight: bold; 
+}
+
+.header a:hover {
+  color: #23527c; 
+}
+
+/* h3 {
+  text-align: 
+} */
+
+.vid {
+  display: flex;
+  justify-content: center; 
+  margin: 20px 0; 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+h6 {
+  margin: 5px 0; 
+}
+
+a {
+  text-decoration: none; 
+  color: #337ab7; 
+}
+
+a:hover {
+  color: #23527c; 
+}
+  /* .Mickey img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .mintfloral img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+  
+  .mintpolkadots img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .mushroom img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .owl img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .pinkfloral img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .planetscats img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .purplebutterflies img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  .rustfloral img{
+    width: 150px !important;
+    height: 150px !important;
+  } */
+
+
+
+
+
+
+
+
+
